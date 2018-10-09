@@ -16,6 +16,13 @@
     </dependency>
   </dependencies>
   <build>
+  <plugins>
+  	 <plugin>
+	<groupId>org.wildfly.plugins</groupId>
+	<artifactId>wildfly-maven-plugin</artifactId>
+	<version>1.1.0.Alpha5</version>			
+  	</plugin>
+  </plugins>
     <finalName>MyFirstApp</finalName>
   </build>
 </project>
